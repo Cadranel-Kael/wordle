@@ -1,2 +1,2 @@
-# wordle
+# Wordle
 Wordle Game in JS
