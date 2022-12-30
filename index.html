@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wordle</title>
+  <meta name="description" content="wordle game">
+  <meta name="author" content="Kael Cadranel">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Kael's Wordle</h1>
+  </header>
+  <p class="end-game"></p>
+  <table>
+    <tr class="first-row">
+      <td class="first-column"></td>
+      <td class="second-column"></td>
+      <td class="third-column"></td>
+      <td class="fourth-column"></td>
+      <td class="fifth-column"></td>
+    </tr>
+    <tr class="second-row">
+      <td class="first-column"></td>
+      <td class="second-column"></td>
+      <td class="third-column"></td>
+      <td class="fourth-column"></td>
+      <td class="fifth-column"></td>
+    </tr>
+    <tr class="third-row">
+      <td class="first-column"></td>
+      <td class="second-column"></td>
+      <td class="third-column"></td>
+      <td class="fourth-column"></td>
+      <td class="fifth-column"></td>
+    </tr>
+    <tr class="forth-row">
+      <td class="first-column"></td>
+      <td class="second-column"></td>
+      <td class="third-column"></td>
+      <td class="fourth-column"></td>
+      <td class="fifth-column"></td>
+    </tr>
+    <tr class="fifth-row">
+      <td class="first-column"></td>
+      <td class="second-column"></td>
+      <td class="third-column"></td>
+      <td class="fourth-column"></td>
+      <td class="fifth-column"></td>
+    </tr>
+    <tr class="sixth-row">
+      <td class="first-column"></td>
+      <td class="second-column"></td>
+      <td class="third-column"></td>
+      <td class="fourth-column"></td>
+      <td class="fifth-column"></td>
+    </tr>
+  </table>
+  <form class="keyboard" method="get" action="">
+    <div class="first-keyboard-row">
+      <button type="button" id="q">Q</button>
+      <button type="button" id="w">W</button>
+      <button type="button" id="e">E</button>
+      <button type="button" id="r">R</button>
+      <button type="button" id="t">T</button>
+      <button type="button" id="y">Y</button>
+      <button type="button" id="u">U</button>
+      <button type="button" id="i">I</button>
+      <button type="button" id="o">O</button>
+      <button type="button" id="p">P</button>
+    </div>
+    <div class="second-keyboard-row">
+      <button type="button" id="a">A</button>
+      <button type="button" id="s">S</button>
+      <button type="button" id="d">D</button>
+      <button type="button" id="f">F</button>
+      <button type="button" id="g">G</button>
+      <button type="button" id="h">H</button>
+      <button type="button" id="j">J</button>
+      <button type="button" id="k">K</button>
+      <button type="button" id="l">L</button>
+    </div>
+    <div class="third-keyboard-row">
+      <input type="submit" id="enter" value="ENTER">
+      <button type="button" id="z">Z</button>
+      <button type="button" id="x">X</button>
+      <button type="button" id="c">C</button>
+      <button type="button" id="v">V</button>
+      <button type="button" id="b">B</button>
+      <button type="button" id="n">N</button>
+      <button type="button" id="backspace"><img src="./images/backspace.svg" alt="backspace"></button>
+    </div>
+  </form>
+  <footer></footer>
+  <script src="main.js"></script>
+</body>
+</html>
